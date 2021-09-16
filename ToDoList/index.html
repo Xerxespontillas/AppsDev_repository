@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="list.css">
+</head>
+<body>
+  <div class="head">
+    <h1>MY TO DO LIST</h1>
+    <form class="addlist">
+          <div class="row">
+            <input type="text" id="todolist" placeholder="Put in the list"> 
+          </div>
+      </form>
+    </div>
+      <div class="container">
+        <div class="center-button">
+          <button type="button" class="btn btn-dark" onClick="addElement()">Add</button>
+        </div>
+      </div>
+      
+      <ul id="listUL" class="items">
+  
+      </ul>
+
+
+<script src="script.js"></script>
+</body>
+</html>
